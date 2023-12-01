@@ -95,6 +95,8 @@ public class Application{
         frame.add(allClearButton);
 
         frame.setLayout(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setBackground(Color.darkGray);
         frame.setSize(360,600);
         frame.setVisible(true);
 
