@@ -109,7 +109,7 @@ public class Application{
 
     private static void errorText(){
         result.setLength(0);
-        result.append("ERR");
+        updateText("ERR");
         error = true;
     }
 
